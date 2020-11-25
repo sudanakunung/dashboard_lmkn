@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    position: fixed;
+    top : 76px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px 2px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 0.1px solid #292f33;
+}
+.sidebar .dropdown-menu{
+    position: relative;
+    padding: 0;
+    margin-bottom: 10px;
+    background-color: #fdfdfd;
+    display: none;
+    border: none;
+    border-radius: 2000px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+}
+.sidebar .dropdown-menu > li > a{
+    padding: 10px 20px;
+    display: block;
+}
+.sidebar .caret{
+    float: right;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer{
+    padding: 10px;
+}
+.mb-0{
+    margin-bottom: 0px !important;
+}
+.mb-5{
+    margin-bottom: 5px !important;
+}
+.mb-10{
+    margin-bottom: 10px !important;
+}
+.mb-15{
+    margin-bottom: 15px !important;
+}
+.mb-20{
+    margin-bottom: 20px !important;
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+.page-header b{
+    color: #cccccc;
+}
+
+form label{
+    color: #cccccc;
+}
+
+.table-responsive label {
+    color: #333;
+}
+
+.card {
+    background: #fff;
+}
+
+.card .card-footer{
+    background: #cccccc;
+    padding: 5px;
+}
+
+.card .card-header{
+    background: #cccccc;
+    padding: 10px;
+}
+
+.card .card-footer .total-data{
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.pagination {
+    margin: 0;
+}
+
+nav.pagination{
+    float: right;
+}
